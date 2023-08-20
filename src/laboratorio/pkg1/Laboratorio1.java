@@ -17,14 +17,21 @@ public class Laboratorio1 {
         // TODO code application logic here
         String nombre ="Juan";
         Persona per =new Persona (nombre);
+        per.setApellido(apellido "Perez");
+        per.setDni(dni "Perez");
+        per.setEdad(edad "16");
+        String imprimir=per.getConsola();
+        System.out.println( imprimir);
         //segundo ejemplo
         String nombre2 ="miguel";
         String apellido ="Cervantes";
         String dni ="11112222";
         
         Persona per2 = new Persona(
-        nombre,apellido,dni);
-        System.out.printin(""
+        nombre2,apellido,dni);
+        String imprimir2 =per2.getConsola();
+        System.out.println( imprimir2);
+        System.out.println(""
                 +"/n el nombre es:"+per.getNombre()
                 +"/n el apellido es:"+per.getApellido()
                 +"/n el dni es:" +per,getdni()
